@@ -56,11 +56,32 @@ button {
 }
 
 article {
-  display: contents;
   justify-content: center;
   text-align: center;
   font-size: 15px;
-  color: purple;
+  color: navy;
+}
+
+#E:hover {
+  color: red;
+  transform: perspective(1.3);
+}
+
+#F:hover {
+  color: red;
+  transform: perspective(1.3);
+}
+
+article > div {
+  background-color: darkgoldenrod;
+  justify-content: space-around;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  justify-content: center;
+  display: flex;
 }
 
 footer {
