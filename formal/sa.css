@@ -2,10 +2,10 @@
   padding: 10px;
   margin: 0px;
   background-color: beige;
-  @media screen (max-width: 1680px;) {
+  @media screen {(max-width: 1680px;) {
     font-size: 15px;
     overflow: hidden;
-  }
+   
 }
 
 header {
