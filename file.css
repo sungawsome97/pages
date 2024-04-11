@@ -3,6 +3,8 @@
   margin: 0px;
   background-color: beige;
   justifycontent: center;
+  display: flex;
+  
 }
 
 header {
